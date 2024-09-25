@@ -38,6 +38,7 @@ app.post('/users', (req, res) => {
     // Sample user data
     { id: 1, name: 'John Doe', age: 30 },
     { id: 2, name: 'Jane Smith', age: 28 },
+    { id: 3, name: 'Jane', age: 26 },
   ];
 
   // Check if the user already exists
